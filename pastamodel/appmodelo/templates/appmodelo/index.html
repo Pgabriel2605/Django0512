@@ -9,7 +9,7 @@
     <ul>
         {% for item in lista_itens %}
             <li>
-            {{item.id}}:{{item.titulo}}-{{item.texto}}-{{item.data|date:'d/m/Y'}}-{{item.hora}}
+            {{item.id}}:{{item.nome}}-{{item.idade}}-{{item.email}}-{{item.telefone}}
             </li>
         {%empty%}
             <li> Sem comentários na lista</li>
